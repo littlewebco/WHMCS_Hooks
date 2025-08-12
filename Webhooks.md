@@ -20,7 +20,7 @@ other webhook consumer, with payloads protected by JSON Web Tokens (JWT).
 1. **Copy the hook file**
 
    ```bash
-   cp notifyAM8.php /path/to/whmcs/includes/hooks/
+   cp notifyWebhooks.php /path/to/whmcs/includes/hooks/
    ```
 
 2. **Set your webhook URL**
