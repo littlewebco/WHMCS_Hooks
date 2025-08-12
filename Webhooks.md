@@ -31,7 +31,7 @@ other webhook consumer, with payloads protected by JSON Web Tokens (JWT).
 3. **Configure the secret**
 
    ```php
-   // notifyAM8.php
+   // notifyWebhooks.php
    const JWT_SECRET_KEY = getenv('WHMCS_JWT_SECRET');
    ```
 
